@@ -4,5 +4,6 @@
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping@sha256:25df5b854d28dac69c6293db4db50d8fa819c96ad2f2a30bdde6aad467de1b17
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook@sha256:6ccc1f6ac07d27e97d96c502b4c6e928d5fb3abd165ae7670e94a57788416c75
 #FROM gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:0fa52d1a7fd82e491a983e2ea6f11c12eacb253ad38ae46842cd80080afffc06
-FROM gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook
+#FROM gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook
+FROM gcr.io/knative-releases/knative.dev/serving/cmd/webhook
 MAINTAINER gyx
