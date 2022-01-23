@@ -15,5 +15,6 @@
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:9f3c83def9d0d5de0e8e1d1f4c10f262e283fe12d21dcbb91de06b65d3bd08ad
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/mtping@sha256:6a78d2df8eec44bb983ae39952097670fad0556afc6d069fc88fd8347a014698
 
-FROM gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller@sha256:4fe048c1454e129dda9b32abac4da7bfdc7ca1b53316169e1748873095f5f565
+#FROM gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller@sha256:4fe048c1454e129dda9b32abac4da7bfdc7ca1b53316169e1748873095f5f565
+FROM gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_dispatcher@sha256:f68e7b2f99b590e60f034d91b771eef02ff9303da749da4aec389f4c8286d903
 MAINTAINER gyx
