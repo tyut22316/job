@@ -18,5 +18,6 @@
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller@sha256:4fe048c1454e129dda9b32abac4da7bfdc7ca1b53316169e1748873095f5f565
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_dispatcher@sha256:f68e7b2f99b590e60f034d91b771eef02ff9303da749da4aec389f4c8286d903
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/mtchannel_broker@sha256:7a7935c44b7a33fd4aced8818bfbf66529699dfb52618f109fa9fea8fd104f40
-FROM gcr.io/knative-releases/knative.dev/eventing/cmd/broker/filter@sha256:08f12d845d001ae83c9750e8740cbb471c8199b0ee7ad032b85da8aafe39b151
+#FROM gcr.io/knative-releases/knative.dev/eventing/cmd/broker/filter@sha256:08f12d845d001ae83c9750e8740cbb471c8199b0ee7ad032b85da8aafe39b151
+FROM gcr.io/knative-releases/knative.dev/eventing/cmd/broker/ingress@sha256:723f3f64dd8364048eee5ff5c3042647ce9e0d14d3da25dc03cc189263c28f9f
 MAINTAINER gyx
