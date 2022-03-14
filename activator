@@ -24,5 +24,6 @@
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter@sha256:afb65789e9c92414ef8885bb71ec1afd7dffe1730729a45fbf918356bd6ed7a1
 
 #FROM gcr.io/knative-samples/helloworld-go
-FROM gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:48a1753de35ecbe060611aea9e95751e3e4851183c4373e65aa1b9410ea6e263
+#FROM gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:48a1753de35ecbe060611aea9e95751e3e4851183c4373e65aa1b9410ea6e263
+FROM quay.io/kubevirt/virt-operator:v0.51.0
 MAINTAINER gyx
