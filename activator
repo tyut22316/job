@@ -28,5 +28,6 @@
 #FROM quay.io/kubevirt/virt-operator:v0.51.0  
 #FROM quay.io/kubevirt/virt-launcher:v0.51.0
 #FROM quay.io/external_storage/nfs-client-provisioner:v2.0.0
-FROM quay.io/coreos/flannel:v0.12.0-amd64
+#FROM quay.io/coreos/flannel:v0.12.0-amd64
+FROM registry.k8s.io/cpa/cluster-proportional-autoscaler
 MAINTAINER gyx
